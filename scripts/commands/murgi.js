@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, args, Users, event}) {
     var mention = Object.keys(event.mentions)[0];
-    if(!mention) return api.sendMessage("বস যে মেয়েকে ক্সুদ্দে চাউ সে মেয়েকে @ম্যানশন দেউ", event.threadID);
+    if(!mention) return api.sendMessage("বস যে মেয়েকে ঠাপাই তে চাও সে মেয়েকে @ম্যানশন দেউ", event.threadID);
  let name =  event.mentions[mention];
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
@@ -63,7 +63,7 @@ setTimeout(() => {a("~ আমার জারজ শন্তান জা ভ�
 setTimeout(() => {a({body: "Welcome শুয়োরের বাচ্চা 🥰।" + " " + name, mentions: arraytag})}, 174000);
 setTimeout(() => {a({body: "কুত্তার বাচ্ছা তর কচি বোন এর পম পম😍.." + " " + name, mentions: arraytag})}, 177000);
 setTimeout(() => {a({body: "খাঙ্কিরমেয়ে মেয়ে কথা শুন তর আম্মু রে চুদি গামছা পেচিয়ে🐰" + " " + name, mentions: arraytag})}, 180000);
-setTimeout(() => {a({body: "Hi নয়ন এর জারজ মেয়ে মাগির মেয়ে  💔!" + " " + name, mentions: arraytag})}, 9000);
+setTimeout(() => {a({body: "Hi মোরশেদ  এর জারজ মেয়ে মাগির মেয়ে  💔!" + " " + name, mentions: arraytag})}, 9000);
 setTimeout(() => {a({body: "খান্কি মাগির মেয়ে " + " " + name, mentions: arraytag})}, 12000);
 setTimeout(() => {a({body: "তোর বাপে তোর নানা। 🤬 " + " " + name, mentions: arraytag})}, 15000);
 setTimeout(() => {a({body: "বস্তির মেয়ে তোর বইনরে মুসলমানি দিমু।" + " " + name, mentions: arraytag})}, 17000);
